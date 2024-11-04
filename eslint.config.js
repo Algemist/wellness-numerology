@@ -31,6 +31,7 @@ export default [
     files: ['**/*.{js,jsx,astro}'],
     rules: {
       'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
+      'no-irregular-whitespace': 0,
     },
   },
   {
